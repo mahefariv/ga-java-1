@@ -9,7 +9,7 @@ on:
 jobs:
   build-java:
 
-    runs-on: ubuntu-lateset    
+    runs-on: ubuntu-latest    
     steps:
     - name : Telechargement du code sources
       uses: actions/checkout@v4
